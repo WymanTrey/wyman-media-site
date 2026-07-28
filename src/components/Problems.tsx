@@ -6,7 +6,7 @@ const Problems: React.FC = () => {
     return (
         <div className="grid gap-8 md:grid-cols-3">
             {problems.map((problem) => (
-                <div key={problem.title} className="p-6 rounded-2xl border border-gray-100 bg-white shadow-sm">
+                <div key={problem.title} className="p-6 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
                     <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
                         {problem.icon}
                     </div>

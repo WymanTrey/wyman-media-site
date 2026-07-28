@@ -20,7 +20,7 @@ const Header: React.FC = () => {
     return (
         <header className="bg-transparent fixed top-0 left-0 right-0 md:absolute z-50 mx-auto w-full">
             <Container className="!px-0">
-                <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
+                <nav className="shadow-md md:shadow-none bg-white md:bg-white/5 md:backdrop-blur-md mx-auto flex justify-between items-center py-2 px-5 md:py-6">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
                         <Logomark className="min-w-fit w-7 h-7" />
@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
+                            <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent hover:scale-105 px-8 py-3 rounded-full transition-all duration-200">
                                 Get Started
                             </Link>
                         </li>

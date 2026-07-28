@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="text-center max-w-3xl mx-auto">
-                <span className="inline-block bg-secondary/15 text-secondary border border-secondary/30 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
+                <span className="inline-block bg-secondary/15 text-secondary border border-secondary/30 text-xs md:text-sm font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full mb-6">
                     Built for salons, barbers, aestheticians &amp; chiropractors
                 </span>
 
@@ -29,10 +29,10 @@ const Hero: React.FC = () => {
                 <p className="mt-4 text-white/80 max-w-xl mx-auto">{heroDetails.subheading}</p>
 
                 <div className="mt-8 flex flex-col sm:flex-row items-center justify-center sm:gap-4 gap-3 w-fit mx-auto">
-                    <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors font-semibold w-full sm:w-auto text-center">
+                    <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent shadow-lg shadow-primary/30 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
                         Get My Free Preview
                     </Link>
-                    <Link href="#work" className="text-white border border-white/30 hover:border-white/60 px-8 py-3 rounded-full transition-colors font-semibold w-full sm:w-auto text-center">
+                    <Link href="#work" className="text-white border border-white/30 hover:border-white/60 hover:bg-white/5 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
                         See Example Sites
                     </Link>
                 </div>

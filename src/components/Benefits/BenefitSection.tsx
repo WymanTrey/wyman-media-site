@@ -88,7 +88,9 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
 
                 <div className={clsx("mt-5 lg:mt-0", { "lg:order-2": imageAtRight })}>
                     <div className={clsx("w-fit flex", { "justify-start": imageAtRight, "justify-end": !imageAtRight })}>
-                        <Image src={imageSrc} alt="title" width="384" height="480" quality={100} className="lg:ml-0 rounded-2xl object-cover" />
+                        <div className="p-1.5 rounded-2xl bg-gradient-to-br from-primary to-secondary">
+                            <Image src={imageSrc} alt="title" width="384" height="480" quality={100} className="rounded-xl object-cover block" />
+                        </div>
                     </div>
                 </div>
             </motion.div>

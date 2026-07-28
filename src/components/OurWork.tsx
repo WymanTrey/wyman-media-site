@@ -7,8 +7,9 @@ import { niches } from '@/data/niches';
 const OurWork: React.FC = () => {
     return (
         <div>
-            <div className="rounded-2xl border border-gray-100 shadow-sm overflow-hidden max-w-2xl mx-auto bg-white">
-                <div className="px-6 py-2 bg-secondary/10 text-secondary text-sm font-semibold">
+            <div className="rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 overflow-hidden max-w-2xl mx-auto bg-white">
+                <div className="h-2 w-full bg-gradient-to-r from-secondary to-primary" />
+                <div className="px-6 py-2 bg-secondary/10 text-secondary text-xs font-semibold uppercase tracking-wide">
                     ● Live Example
                 </div>
                 <div className="p-8">
@@ -29,7 +30,7 @@ const OurWork: React.FC = () => {
             <p className="text-center text-foreground-accent mt-12 mb-5">Example builds for every niche we serve:</p>
             <div className="flex flex-wrap items-center justify-center gap-3">
                 {niches.slice(0, 4).map((niche) => (
-                    <span key={niche.label} className="px-4 py-2 rounded-full border border-gray-200 text-sm font-medium text-foreground-accent">
+                    <span key={niche.label} className="px-4 py-2 rounded-full border border-gray-200 text-sm font-medium text-foreground-accent hover:border-secondary/50 hover:text-secondary transition-colors">
                         {niche.label}
                     </span>
                 ))}

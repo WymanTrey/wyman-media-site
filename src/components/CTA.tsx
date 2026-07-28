@@ -17,7 +17,7 @@ const CTA: React.FC = () => {
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
                         <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4">
-                        <Link href={ctaDetails.bookingUrl} className="text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors font-semibold">
+                        <Link href={ctaDetails.bookingUrl} className="text-white bg-primary hover:bg-primary-accent shadow-lg shadow-primary/30 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold">
                             Get My Free Preview
                         </Link>
                         </div>
