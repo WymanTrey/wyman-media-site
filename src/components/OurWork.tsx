@@ -37,7 +37,7 @@ const OurWork: React.FC = () => {
 
             <p className="text-center mt-8">
                 <Link href="#cta" className="font-semibold text-secondary hover:underline">
-                    Want to see one with your business's name on it? We'll build you a free example →
+                    Want to see one with your business&apos;s name on it? We&apos;ll build you a free example →
                 </Link>
             </p>
         </div>
