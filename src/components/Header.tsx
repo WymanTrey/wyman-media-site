@@ -9,6 +9,7 @@ import Container from './Container';
 import Logomark from './Logomark';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
+import { ctaDetails } from '@/data/cta';
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +40,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent hover:scale-105 px-8 py-3 rounded-full transition-all duration-200">
+                            <Link href={ctaDetails.bookingUrl} target="_blank" rel="noopener noreferrer" className="text-white bg-primary hover:bg-primary-accent hover:scale-105 px-8 py-3 rounded-full transition-all duration-200">
                                 Get Started
                             </Link>
                         </li>
@@ -85,7 +86,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
+                            <Link href={ctaDetails.bookingUrl} target="_blank" rel="noopener noreferrer" className="text-white bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
                                 Get Started
                             </Link>
                         </li>

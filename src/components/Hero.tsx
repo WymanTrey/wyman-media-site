@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import { heroDetails } from '@/data/hero';
+import { ctaDetails } from '@/data/cta';
 
 const Hero: React.FC = () => {
     return (
@@ -29,7 +30,7 @@ const Hero: React.FC = () => {
                 <p className="mt-4 text-white/80 max-w-xl mx-auto">{heroDetails.subheading}</p>
 
                 <div className="mt-8 flex flex-col sm:flex-row items-center justify-center sm:gap-4 gap-3 w-fit mx-auto">
-                    <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent shadow-lg shadow-primary/30 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
+                    <Link href={ctaDetails.bookingUrl} target="_blank" rel="noopener noreferrer" className="text-white bg-primary hover:bg-primary-accent shadow-lg shadow-primary/30 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
                         Get My Free Preview
                     </Link>
                     <Link href="#work" className="text-white border border-white/30 hover:border-white/60 hover:bg-white/5 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
