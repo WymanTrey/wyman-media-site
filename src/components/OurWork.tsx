@@ -9,6 +9,26 @@ const OurWork: React.FC = () => {
         <div>
             <div className="rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 overflow-hidden max-w-2xl mx-auto bg-white">
                 <div className="h-2 w-full bg-gradient-to-r from-secondary to-primary" />
+                <div className="px-6 py-2 bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wide">
+                    ● Real Client
+                </div>
+                <div className="p-8">
+                    <h3 className="text-2xl font-bold mb-2">K. ESTHETICS</h3>
+                    <p className="text-foreground-accent mb-6">
+                        A full-body waxing studio in Grand Forks, ND — custom site with services &amp; pricing, package bundles, and Square booking embedded right on the page.
+                    </p>
+                    <Link
+                        href="https://k-esthetics-site.vercel.app"
+                        target="_blank"
+                        className="inline-flex items-center gap-1 text-primary font-semibold hover:text-primary-accent"
+                    >
+                        View Live Site <FiArrowUpRight />
+                    </Link>
+                </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 overflow-hidden max-w-2xl mx-auto bg-white mt-8">
+                <div className="h-2 w-full bg-gradient-to-r from-secondary to-primary" />
                 <div className="px-6 py-2 bg-secondary/10 text-secondary text-xs font-semibold uppercase tracking-wide">
                     ● Live Example
                 </div>

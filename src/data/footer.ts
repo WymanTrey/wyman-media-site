@@ -22,8 +22,8 @@ export const footerDetails: {
             url: "#pricing"
         }
     ],
-    email: 'hello@wymanmedia.com',
-    telephone: '+1 (701) 555-0100',
+    email: 'Wymantrey4@gmail.com',
+    telephone: '+1 (701) 317-6951',
     socials: {
         facebook: 'https://facebook.com',
         instagram: 'https://www.instagram.com',
