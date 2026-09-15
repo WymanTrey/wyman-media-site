@@ -1,4 +1,4 @@
-import { FaCut, FaSpa, FaUserMd } from "react-icons/fa";
+import { FaCut, FaSpa, FaUserMd, FaHardHat } from "react-icons/fa";
 import { FiScissors, FiCalendar } from "react-icons/fi";
 
 import { INiche } from "@/types";
@@ -8,5 +8,6 @@ export const niches: INiche[] = [
     { label: "Barbershops", icon: <FaCut size={20} /> },
     { label: "Aestheticians & Med Spas", icon: <FaSpa size={20} /> },
     { label: "Chiropractors", icon: <FaUserMd size={20} /> },
+    { label: "Contractors", icon: <FaHardHat size={20} /> },
     { label: "Any Appointment-Based Business", icon: <FiCalendar size={20} /> },
 ];

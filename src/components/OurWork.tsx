@@ -65,7 +65,7 @@ const OurWork: React.FC = () => {
 
             <p className="text-center text-foreground-accent mt-12 mb-5">Example builds for every niche we serve:</p>
             <div className="flex flex-wrap items-center justify-center gap-3">
-                {niches.slice(0, 4).map((niche) => (
+                {niches.map((niche) => (
                     <span key={niche.label} className="px-4 py-2 rounded-full border border-gray-200 text-sm font-medium text-foreground-accent hover:border-secondary/50 hover:text-secondary transition-colors">
                         {niche.label}
                     </span>
