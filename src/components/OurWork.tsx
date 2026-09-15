@@ -30,6 +30,12 @@ const workItems: IWorkItem[] = [
         description: 'A full example build for a med spa/aesthetics niche — custom site, live online booking calendar, and the review-request flow, all wired up exactly like a real client would get.',
         url: 'https://finwise-saas-landing-page-eight-orpin.vercel.app',
     },
+    {
+        badge: 'Live Example',
+        name: 'Ironclad Roofing Co.',
+        description: 'A full example build for a roofing/contractor niche — custom site with a before/after project gallery and Google reviews front and center, built to earn trust fast for high-ticket jobs.',
+        url: 'https://ironclad-roofing-demo-eight.vercel.app',
+    },
 ];
 
 const OurWork: React.FC = () => {
