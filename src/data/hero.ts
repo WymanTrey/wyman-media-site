@@ -1,4 +1,4 @@
 export const heroDetails = {
-    heading: 'Get found. Get booked. Get referred.',
-    subheading: 'We build websites, online booking, and Google review systems for salons, barbers, and spas — and websites with review + referral systems for contractors. Two services, built for how each business actually wins new work.',
+    heading: 'Your next job starts with your reputation.',
+    subheading: 'We build contractors a real website plus a review and referral system that runs itself — and we build salons, barbers, and spas a site with online booking and automatic Google reviews. Whatever business you run, we build what actually gets you found and hired.',
 }

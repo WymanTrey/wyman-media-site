@@ -22,7 +22,45 @@ const HomePage: React.FC = () => {
       <PatternDivider />
       <NicheBar />
 
-      <div id="beauty-spas">
+      <div id="contractors">
+        <Container>
+          <div className="text-center pt-6 pb-2">
+            <span className="inline-block bg-secondary/10 text-secondary text-xs font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full">
+              For Contractors
+            </span>
+          </div>
+
+          <Section
+            id="contractor-problem"
+            title="Reputation is what wins high-ticket jobs."
+            description="If your reviews and referrals aren't building on their own, the job goes to whoever's word-of-mouth is louder."
+          >
+            <ContractorProblems />
+          </Section>
+
+          <ContractorBenefits />
+
+          <Section
+            id="contractor-work"
+            title="Real work, built for contractors."
+            description="Live examples of what we build for local contractors."
+          >
+            <ContractorWork />
+          </Section>
+
+          <Section
+            id="contractor-pricing"
+            title="One upfront setup, then a simple monthly retainer."
+            description="We build it, run it, and keep it working while you're on the job."
+          >
+            <ContractorPricing />
+          </Section>
+        </Container>
+      </div>
+
+      <PatternDivider />
+
+      <div id="beauty-spas" className="bg-gray-50">
         <Container>
           <div className="text-center pt-6 pb-2">
             <span className="inline-block bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full">
@@ -59,44 +97,6 @@ const HomePage: React.FC = () => {
           <FAQ />
 
           <Stats />
-        </Container>
-      </div>
-
-      <PatternDivider />
-
-      <div id="contractors" className="bg-gray-50">
-        <Container>
-          <div className="text-center pt-6 pb-2">
-            <span className="inline-block bg-secondary/10 text-secondary text-xs font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full">
-              For Contractors
-            </span>
-          </div>
-
-          <Section
-            id="contractor-problem"
-            title="Reputation is what wins high-ticket jobs."
-            description="If your reviews and referrals aren't building on their own, the job goes to whoever's word-of-mouth is louder."
-          >
-            <ContractorProblems />
-          </Section>
-
-          <ContractorBenefits />
-
-          <Section
-            id="contractor-work"
-            title="Real work, built for contractors."
-            description="Live examples of what we build for local contractors."
-          >
-            <ContractorWork />
-          </Section>
-
-          <Section
-            id="contractor-pricing"
-            title="One upfront setup, then a simple monthly retainer."
-            description="We build it, run it, and keep it working while you're on the job."
-          >
-            <ContractorPricing />
-          </Section>
         </Container>
       </div>
 
