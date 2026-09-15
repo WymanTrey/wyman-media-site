@@ -3,7 +3,7 @@ import { IPricing } from "@/types";
 export const tiers: IPricing[] = [
     {
         name: 'Everything Included',
-        price: 97,
+        price: 49,
         features: [
             'Custom professional website',
             'Online booking calendar',

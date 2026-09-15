@@ -1,0 +1,21 @@
+import React from 'react';
+
+import { contractorProblems } from '@/data/contractorProblems';
+
+const ContractorProblems: React.FC = () => {
+    return (
+        <div className="grid gap-8 md:grid-cols-3">
+            {contractorProblems.map((problem) => (
+                <div key={problem.title} className="p-6 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
+                    <div className="w-12 h-12 rounded-full bg-secondary/10 text-secondary flex items-center justify-center mb-4">
+                        {problem.icon}
+                    </div>
+                    <h3 className="text-lg font-semibold mb-2">{problem.title}</h3>
+                    <p className="text-foreground-accent">{problem.description}</p>
+                </div>
+            ))}
+        </div>
+    );
+};
+
+export default ContractorProblems;

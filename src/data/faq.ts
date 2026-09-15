@@ -3,7 +3,7 @@ import { IFAQ } from "@/types";
 export const faqs: IFAQ[] = [
     {
         question: 'How much does it cost?',
-        answer: '$97/month, flat. That covers your website, online booking calendar, and automated Google review system — no setup fee, no contract, cancel any time.',
+        answer: '$49/month, flat. That covers your website, online booking calendar, and automated Google review system — no setup fee, no contract, cancel any time.',
     },
     {
         question: 'How does the online booking calendar work?',

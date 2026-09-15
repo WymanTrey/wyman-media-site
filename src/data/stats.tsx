@@ -5,7 +5,7 @@ import { IStats } from "@/types";
 
 export const stats: IStats[] = [
     {
-        title: "$97/mo",
+        title: "$49/mo",
         icon: <BsCashCoin size={34} className="text-secondary" />,
         description: "One flat monthly fee — website, booking calendar, and review system all included."
     },

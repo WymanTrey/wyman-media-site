@@ -23,18 +23,24 @@ const Hero: React.FC = () => {
 
             <div className="text-center max-w-3xl mx-auto">
                 <span className="inline-block bg-secondary/15 text-secondary border border-secondary/30 text-xs md:text-sm font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full mb-6">
-                    Built for salons, barbers, aestheticians &amp; chiropractors
+                    Two services, two kinds of businesses
                 </span>
 
                 <h1 className="text-4xl md:text-6xl md:leading-tight font-bold text-white max-w-2xl mx-auto">{heroDetails.heading}</h1>
                 <p className="mt-4 text-white/80 max-w-xl mx-auto">{heroDetails.subheading}</p>
 
                 <div className="mt-8 flex flex-col sm:flex-row items-center justify-center sm:gap-4 gap-3 w-fit mx-auto">
-                    <Link href={ctaDetails.bookingUrl} target="_blank" rel="noopener noreferrer" className="text-white bg-primary hover:bg-primary-accent shadow-lg shadow-primary/30 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
-                        Get My Free Preview
+                    <Link href="#beauty-spas" className="text-white bg-primary hover:bg-primary-accent shadow-lg shadow-primary/30 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
+                        I run a salon, barbershop, or spa
                     </Link>
-                    <Link href="#work" className="text-white border border-white/30 hover:border-white/60 hover:bg-white/5 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
-                        See Example Sites
+                    <Link href="#contractors" className="text-white bg-secondary hover:bg-secondary/90 shadow-lg shadow-secondary/30 hover:scale-105 px-8 py-3 rounded-full transition-all duration-200 font-semibold w-full sm:w-auto text-center">
+                        I&apos;m a contractor
+                    </Link>
+                </div>
+
+                <div className="mt-4">
+                    <Link href={ctaDetails.bookingUrl} target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white text-sm underline underline-offset-4">
+                        Or just book a free call →
                     </Link>
                 </div>
 

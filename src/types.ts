@@ -6,7 +6,7 @@ export interface IMenuItem {
 export interface IBenefit {
     title: string;
     description: string;
-    imageSrc: string;
+    imageSrc?: string;
     bullets: IBenefitBullet[]
 }
 
@@ -19,6 +19,14 @@ export interface IBenefitBullet {
 export interface IPricing {
     name: string;
     price: number | string;
+    features: string[];
+}
+
+export interface IPackagePricing {
+    name: string;
+    upfront: number;
+    monthly: number;
+    addOnPrice: number;
     features: string[];
 }
 

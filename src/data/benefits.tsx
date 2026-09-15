@@ -23,7 +23,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
     },
     {
         title: "Booking on Autopilot",
@@ -45,7 +44,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiUserCheck size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
     },
     {
         title: "Reviews That Build Themselves",
@@ -67,6 +65,5 @@ export const benefits: IBenefit[] = [
                 icon: <FiSearch size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
     },
 ]
