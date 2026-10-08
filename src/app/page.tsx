@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
 
           <Section
             id="contractor-pricing"
-            title="One upfront setup, then a simple monthly retainer."
+            title="One simple monthly price. No setup fee."
             description="We build it, run it, and keep it working while you're on the job."
           >
             <ContractorPricing />

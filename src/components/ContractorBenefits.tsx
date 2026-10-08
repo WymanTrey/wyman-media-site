@@ -11,7 +11,7 @@ const ContractorBenefits: React.FC = () => {
             <SectionTitle>
                 <h2 className="text-center mb-4">We handle your reputation online.</h2>
             </SectionTitle>
-            <p className="mb-16 text-center">One upfront setup, then a simple monthly retainer. We build it, run it, and keep it working while you&apos;re on the job.</p>
+            <p className="mb-16 text-center">One simple monthly price, no setup fee. We build it, run it, and keep it working while you&apos;re on the job.</p>
             {contractorBenefits.map((item, index) => {
                 return <BenefitSection key={index} benefit={item} imageAtRight={index % 2 !== 0} />
             })}

@@ -2,14 +2,13 @@ import { IPackagePricing } from "@/types";
 
 export const contractorTier: IPackagePricing = {
     name: 'Everything Included',
-    upfront: 500,
-    monthly: 50,
-    addOnPrice: 150,
+    monthly: 297,
     features: [
         'Custom website with before/after gallery',
-        'Automated Google review requests',
+        'Missed-call text-back — never lose a lead while you’re on a job',
+        'Automated Google review requests after every job',
         'Built-in referral system',
+        'Lead tracking & automatic quote follow-up',
         'Hosting & maintenance included',
-        'Add-ons (extra landing pages, more platforms) — $150 each, only if you want them',
     ],
 }

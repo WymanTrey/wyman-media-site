@@ -24,9 +24,7 @@ export interface IPricing {
 
 export interface IPackagePricing {
     name: string;
-    upfront: number;
     monthly: number;
-    addOnPrice: number;
     features: string[];
 }
 
