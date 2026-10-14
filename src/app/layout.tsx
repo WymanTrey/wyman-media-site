@@ -54,6 +54,14 @@ export default function RootLayout({
         </main>
         <PatternDivider />
         <Footer />
+        {/* GoHighLevel chat widget: collects text opt-ins for A2P */}
+        <script
+          async
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="6acece7a64ad6486480079a3"
+          data-source="WEB_USER"
+        ></script>
       </body>
     </html>
   );
