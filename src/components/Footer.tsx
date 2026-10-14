@@ -40,6 +40,8 @@ const Footer: React.FC = () => {
 
                     {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-white/60 hover:text-white">Phone: {footerDetails.telephone}</a>}
 
+                    <p className="text-white/60">{businessDetails.legalName}<br />{businessDetails.address}</p>
+
                     {footerDetails.socials && (
                         <div className="mt-5 flex items-center gap-5 flex-wrap">
                             {Object.keys(footerDetails.socials).map(platformName => {

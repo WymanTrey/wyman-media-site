@@ -3,6 +3,7 @@ import { ILegalSection } from "@/types";
 export const businessDetails = {
     legalName: 'Wyman Media LLC',
     location: 'Grand Forks, North Dakota',
+    address: '116 Fenton Ave, Grand Forks, ND 58203',
     email: 'Wymantrey4@gmail.com',
     phone: '+1 (701) 317-6951',
     effectiveDate: 'October 13, 2026',
@@ -123,6 +124,6 @@ export const termsSections: ILegalSection[] = [
     },
     {
         heading: 'Contact',
-        paragraphs: [`${legalName}, ${businessDetails.location}. Email ${email} or call ${phone}.`],
+        paragraphs: [`${legalName}, ${businessDetails.address}. Email ${email} or call ${phone}.`],
     },
 ];
