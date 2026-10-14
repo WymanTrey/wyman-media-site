@@ -14,6 +14,7 @@ import ContractorProblems from "@/components/ContractorProblems";
 import ContractorBenefits from "@/components/ContractorBenefits";
 import ContractorWork from "@/components/ContractorWork";
 import ContractorPricing from "@/components/Pricing/ContractorPricing";
+import ChatWidget from "@/components/ChatWidget";
 
 const HomePage: React.FC = () => {
   return (
@@ -103,6 +104,7 @@ const HomePage: React.FC = () => {
       <Container>
         <CTA />
       </Container>
+      <ChatWidget />
     </>
   );
 };

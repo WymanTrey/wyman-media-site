@@ -7,6 +7,7 @@ import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
 
 import Container from './Container';
 import Logomark from './Logomark';
+import NavLink from './NavLink';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
 import { ctaDetails } from '@/data/cta';
@@ -34,9 +35,9 @@ const Header: React.FC = () => {
                     <ul className="hidden md:flex items-center space-x-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground md:text-white/85 hover:text-foreground-accent md:hover:text-white transition-colors">
+                                <NavLink href={item.url} className="text-foreground md:text-white/85 hover:text-foreground-accent md:hover:text-white transition-colors">
                                     {item.text}
-                                </Link>
+                                </NavLink>
                             </li>
                         ))}
                         <li>
@@ -80,9 +81,9 @@ const Header: React.FC = () => {
                     <ul className="flex flex-col space-y-4 pt-1 pb-6 px-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground hover:text-primary block" onClick={toggleMenu}>
+                                <NavLink href={item.url} className="text-foreground hover:text-primary block" onClick={toggleMenu}>
                                     {item.text}
-                                </Link>
+                                </NavLink>
                             </li>
                         ))}
                         <li>

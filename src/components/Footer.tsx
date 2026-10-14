@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 
 import Logomark from './Logomark';
+import NavLink from './NavLink';
 import { siteDetails } from '@/data/siteDetails';
 import { businessDetails } from '@/data/legal';
 import { footerDetails } from '@/data/footer';
@@ -27,7 +28,7 @@ const Footer: React.FC = () => {
                     <ul className="text-white/60">
                         {footerDetails.quickLinks.map(link => (
                             <li key={link.text} className="mb-2">
-                                <Link href={link.url} className="hover:text-white">{link.text}</Link>
+                                <NavLink href={link.url} className="hover:text-white">{link.text}</NavLink>
                             </li>
                         ))}
                     </ul>

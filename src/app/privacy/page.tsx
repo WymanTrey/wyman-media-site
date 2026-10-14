@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import PageShell from "@/components/PageShell";
 import LegalSections from "@/components/LegalSections";
+import ChatWidget from "@/components/ChatWidget";
 import { businessDetails, privacySections } from "@/data/legal";
 
 export const metadata: Metadata = {
@@ -13,6 +14,7 @@ const PrivacyPage: React.FC = () => {
   return (
     <PageShell title="Privacy Policy" subtitle={businessDetails.legalName}>
       <LegalSections sections={privacySections} effectiveDate={businessDetails.effectiveDate} />
+      <ChatWidget />
     </PageShell>
   );
 };
