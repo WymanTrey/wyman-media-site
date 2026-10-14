@@ -10,7 +10,7 @@ const clean = (value: unknown, max = 500) =>
     typeof value === "string" ? value.trim().slice(0, max) : "";
 
 export async function POST(request: Request) {
-    const token = process.env.GHL_TOKEN;
+    const token = process.env.GHL_TOKEN || process.env.GHL_Token;
     const locationId = process.env.GHL_LOCATION_ID;
     if (!token || !locationId) {
         return NextResponse.json({ error: "The form isn't connected yet." }, { status: 503 });
