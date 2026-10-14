@@ -3,6 +3,7 @@ import React from 'react';
 
 import Logomark from './Logomark';
 import { siteDetails } from '@/data/siteDetails';
+import { businessDetails } from '@/data/legal';
 import { footerDetails } from '@/data/footer';
 import { getPlatformIconByName } from '@/utils';
 
@@ -58,7 +59,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
             <div className="mt-8 md:text-center text-white/40 px-6">
-                <p>Copyright &copy; {new Date().getFullYear()} {siteDetails.siteName}. All rights reserved.</p>
+                <p>Copyright &copy; {new Date().getFullYear()} {businessDetails.legalName}, {businessDetails.location}. All rights reserved.</p>
             </div>
         </footer>
     );

@@ -28,6 +28,12 @@ export interface IPackagePricing {
     features: string[];
 }
 
+export interface ILegalSection {
+    heading: string;
+    paragraphs?: string[];
+    list?: string[];
+}
+
 export interface IFAQ {
     question: string;
     answer: string;

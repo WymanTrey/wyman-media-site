@@ -7,19 +7,31 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Websites, online booking, and Google review systems built exclusively for salons, barbers, aestheticians, and chiropractors.",
+    subheading: "Websites plus missed-call, review, and referral systems for contractors, and booking and review systems for salons and spas.",
     quickLinks: [
         {
             text: "How It Works",
-            url: "#fix"
+            url: "/#fix"
         },
         {
             text: "Our Work",
-            url: "#work"
+            url: "/#work"
         },
         {
             text: "Pricing",
-            url: "#pricing"
+            url: "/#pricing"
+        },
+        {
+            text: "Contact",
+            url: "/contact"
+        },
+        {
+            text: "Privacy Policy",
+            url: "/privacy"
+        },
+        {
+            text: "Terms of Service",
+            url: "/terms"
         }
     ],
     email: 'Wymantrey4@gmail.com',
