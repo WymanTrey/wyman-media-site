@@ -1,6 +1,6 @@
 export const siteDetails = {
     siteName: 'Wyman Media',
-    siteUrl: 'https://wyman-media-site.vercel.app/',
+    siteUrl: 'https://wymanmediaco.com/',
     metadata: {
         title: 'Wyman Media | Websites, Booking, Reviews & Referrals',
         description: 'We build websites, online booking, and automated Google reviews for salons, barbers, and spas — and review/referral systems for contractors. Two services, built for how each business actually grows.',
